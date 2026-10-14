@@ -174,46 +174,6 @@ Dataset schemas and label names differ. Preprocessing and feature mapping may be
 
 Use a held-out test split and report accuracy, precision, recall, and F1. For security work, also inspect per-class recall, false positives, false negatives, class imbalance, and performance on a time-separated or external test set. A high score on synthetic data does not demonstrate real-world security effectiveness.
 
-## Screenshot checklist
-
-Save your own screenshots after running the app:
-
-```text
-images/
-├── 01_dashboard_overview.png
-├── 02_dataset_preview.png
-├── 03_model_metrics.png
-├── 04_alert_queue.png
-└── 05_investigation_record.png
-```
-
-Embed them here after capturing:
-
-```markdown
-![Dashboard overview](images/01_dashboard_overview.png)
-![Model metrics](images/03_model_metrics.png)
-![Alert queue](images/04_alert_queue.png)
-```
-
-Do not add fabricated screenshots or claim performance numbers before running the experiment.
-
-## GitHub publishing
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: add SentinelAI threat detection dashboard"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/AI-Cybersecurity-Threat-Detection.git
-git push -u origin main
-```
-
-Suggested repository description:
-
-> Dataset-driven AI cybersecurity lab with Random Forest classification, Isolation Forest anomaly detection, explainable triage rules, and a Streamlit SOC dashboard.
-
-Suggested topics: `cybersecurity`, `machine-learning`, `anomaly-detection`, `intrusion-detection`, `python`, `scikit-learn`, `streamlit`, `security-analytics`.
-
 ## Limitations and next steps
 
 - The default data is synthetic and not representative of all real network environments.
