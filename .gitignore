@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.streamlit/secrets.toml
+models/*.joblib
+outputs/*.csv
+outputs/*.json
+!outputs/.gitkeep
+data/private/
